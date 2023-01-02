@@ -1,0 +1,12 @@
+:root {
+    --main-color: hsl(158, 36%, 37%);
+    --main-bg-color: hsl(30, 38%, 92%);
+    --main-title-color: hsl(212, 21%, 14%);
+    --main-parag-color: hsl(228, 12%, 48%);
+    --parag-font-size: 14px;
+
+}
+/* font-family: 'Montserrat', sans-serif; */
+body {
+    background-color: hsl(228, 12%, 48%);
+}
