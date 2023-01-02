@@ -6,7 +6,62 @@
     --parag-font-size: 14px;
 
 }
-/* font-family: 'Montserrat', sans-serif; */
-body {
-    background-color: hsl(228, 12%, 48%);
+
+* {
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .card {
+        display: block !important;
+        width: 300px !important;
+    }
+
+    .card .product-info > p:first-of-type,
+    .card .product-info h1 + p {
+        margin-top: 0;
+    }
+
+    .card > div {
+        width: 100% !important;
+    }
+
+    img {
+        content: url("../images/image-product-mobile.jpg");
+        border-radius: 10px 10px 0 0 !important;
+        width: 100% !important;
+        height: 200px;
+    }
+}
+
+.parent {
+    height: 100vh;
+}
+
+.parent .card {
+    background-color: white;
+    width: 550px;
+}
+
+.parent .card > div {
+    width: 50%;
+}
+
+.parent .card > div > p:first-of-type {
+    letter-spacing: 6px;
+}
+
+.parent .card .price h1 {
+    margin: 4px 0 15px;
+    color: var(--main-color);
+}
+
+img {
+    width: 50%;
+    min-height: 100%;
+}
+
+i {
+    margin-right: 10px;
 }
